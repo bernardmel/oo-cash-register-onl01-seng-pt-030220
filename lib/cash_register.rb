@@ -12,7 +12,7 @@ class CashRegister
     self.total += price * quantity
     @last_item_price = price * quantity
     while quantity.positive?
-      @items << items
+      @items << item
       quantity -= 1
     end
 
