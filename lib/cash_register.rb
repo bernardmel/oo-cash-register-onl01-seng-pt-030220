@@ -16,7 +16,7 @@ class CashRegister
       quantity -= 1
     end
 end
-  end
+
 
   def apply_discount
   end
