@@ -10,6 +10,3 @@ class CashRegister
     self.discount += 20
   end
   end
-
-
-end
