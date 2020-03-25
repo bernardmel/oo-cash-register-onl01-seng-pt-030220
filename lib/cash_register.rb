@@ -6,7 +6,7 @@ class CashRegister
     @total = total
   end
 
-  def initialize(discount)
+  def initialize(discount = 20)
     @discount = discount
   end
 
